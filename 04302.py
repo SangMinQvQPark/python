@@ -1,5 +1,3 @@
-import time
-import random
-time.ctime()
-
-dir(__name__)
+import numpy as np
+a = np.array([1,2,3,4])
+print( a.mean() ) # 2.5
